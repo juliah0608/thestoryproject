@@ -1,0 +1,60 @@
+body {
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-size: 16px;
+    color: #EEE8AA;
+    background-color: #000000;
+    padding: 3px;
+
+}
+
+
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
+h2 {
+    position:fixed;
+    left: 500px;
+    bottom: 400px;
+}
+
+h3{
+    font-family: Courier New, monospace;
+    font-size: 12px;
+    color:#8B0000;
+}
+
+div-1 {
+    position: fixed;
+    left:500px;
+    bottom: 300px;
+}
+
+div-2{
+    position: fixed;
+    left: 400px;
+    bottom: 200px;
+}
+
+table {
+    width:100%;
+}
+
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
